@@ -7,5 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "deepagents>=0.7.17",
     "langchain>=1.4.2",
+    "langchain-google-genai>=4.4.0",
     "langgraph>=1.2.12",
 ]
