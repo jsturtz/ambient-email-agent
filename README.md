@@ -55,9 +55,11 @@ Copy `.env.example` to `.env`:
 ```bash
 cp .env.example .env
 ```
-Open `.env` and add your Google Gemini API key:
+Open `.env` and set your Google Gemini API key (either `GOOGLE_API_KEY` or `GEMINI_API_KEY`):
 ```env
 GOOGLE_API_KEY="your-actual-api-key"
+# or
+GEMINI_API_KEY="your-actual-api-key"
 ```
 *(Get an API key from [Google AI Studio](https://aistudio.google.com/app/apikey))*
 
